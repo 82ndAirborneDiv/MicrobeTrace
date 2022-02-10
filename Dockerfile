@@ -1,4 +1,4 @@
-FROM node:14.8.0-slim
+FROM node:14.18.2-slim
 WORKDIR /usr/src/app/
 COPY package*.json ./
 RUN npm install
